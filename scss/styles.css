@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+body {
+  font-family: "Ubuntu", sans-serif; }
+
+.tamano-uno {
+  font-size: 14px; }
+
+.tamano-dos {
+  font-size: 16px; }
+
+.tamano-tres {
+  font-size: 12px; }
+
+.tamano-cuatro {
+  font-size: 18px; }
+
+.jumbotron {
+  padding: 0px;
+  background-image: url(../../images/piscina-lq.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 629.4px;
+  text-align: center;
+  object-fit: contain;
+  margin-bottom: 0 !important; }
+
+.bg-translucido {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(8, 41, 95, 0.75));
+  height: 629.4px; }
+
+.bg-custom {
+  background-color: #0051a0; }
+
+.p-custom {
+  padding-top: 171px; }
+
+.titulo {
+  font-size: 60px;
+  line-height: 1.15; }
+
+.formulario {
+  height: 96px;
+  width: 821px;
+  margin: 45px auto 0 auto;
+  opacity: 0.77;
+  background-color: #08295f;
+  border-radius: 5px; }
+
+.provincia, .poblacion, .casa {
+  width: 244.9px;
+  height: 53.2px;
+  margin-top: 19.8px;
+  margin-bottom: 22.9px; }
+
+.provincia {
+  margin-left: 16px;
+  color: #08295f; }
+
+.poblacion {
+  color: #08295f; }
+
+.casa {
+  margin-right: 24.1px;
+  font-weight: bold; }
+
+@media (max-width: 992px) {
+  .navbar {
+    position: absolute; }
+
+  .menu-desplegable {
+    background-color: #08295f; }
+
+  .jumbotron {
+    height: 550px; }
+
+  .bg-translucido {
+    height: 550px; }
+
+  .titulo {
+    font-size: 50px;
+    margin-top: 10px; }
+
+  .formulario {
+    height: 239.6px;
+    width: 280px;
+    margin: auto;
+    padding: 10px;
+    position: relative !important;
+    margin-top: 50px; }
+
+  .provincia, .poblacion, .casa {
+    margin: 10px auto; } }
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 35px;
+    margin-top: 30px; } }
+.promos {
+  margin-top: 62.6px; }
+
+.promociones {
+  color: #08295f;
+  font-size: 36px;
+  margin-bottom: 11px !important; }
+
+.lorem {
+  color: #08295f;
+  font-size: 18px; }
+
+.contenedor-cuadrados {
+  margin: 72px 153px 135px 153px; }
+
+.container-custom {
+  width: 508px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  object-fit: contain; }
+
+.aravaca {
+  background-image: url(../../images/cam-01-santangelo-final.jpg);
+  height: 343px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15px; }
+
+.torrejon {
+  background-image: url(../../images/aelca-patraix-rotonda-1.jpg);
+  height: 343px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15px; }
+
+.rivas {
+  background-image: url(../../images/cam-06-fin-02.jpg);
+  height: 343px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15px; }
+
+.bg-opaco {
+  background-image: linear-gradient(to bottom, rgba(8, 41, 95, 0.01), rgba(8, 41, 95, 0.58));
+  height: 343px;
+  padding-top: 145px; }
+
+.zona-residencial {
+  margin-top: 98px;
+  margin-left: 22px; }
+
+@media (max-width: 992px) {
+  .contenedor-cuadrados {
+    margin: 72px 20px 135px 20px; } }
+@media (max-width: 768px) {
+  .contenedor-cuadrados {
+    margin: 72px 0px 135px 0px; } }
+.fluido {
+  padding: 0;
+  position: relative; }
+
+.cuadro-inferior {
+  position: absolute;
+  background-color: #0051a0;
+  width: 976px;
+  height: 703px;
+  top: 0;
+  left: 0;
+  z-index: 1; }
+
+.cuadro-superior {
+  position: absolute;
+  background-image: url(../../images/mask-group-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 909px;
+  height: 553px;
+  top: 46px;
+  right: 0;
+  z-index: 2; }
+
+.m-titulo {
+  margin-top: 194px;
+  margin-left: 153px;
+  width: 563px; }
+
+.parrafo-atico {
+  margin-top: 27px;
+  margin-left: 153px;
+  width: 522px;
+  height: 181px; }
+
+@media (max-width: 1650px) {
+  .cuadro-superior {
+    width: 709px; } }
+@media (max-width: 1410px) {
+  .cuadro-inferior {
+    height: 803px;
+    width: 80%; }
+
+  .cuadro-superior {
+    width: 709px;
+    height: 353px;
+    top: 400px; }
+
+  .m-titulo {
+    margin-top: 50px; }
+
+  .parrafo-atico, .m-titulo {
+    margin-left: 75px;
+    width: 80%; } }
